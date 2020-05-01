@@ -1,0 +1,99 @@
+.logo {
+    text-align: center;
+    text-decoration: underline;
+    color: slateblue;
+}
+
+.fullform {
+    text-justify: auto;
+    background-color: slateblue;
+    font-family: sans-serif;
+    text-align: justify;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.dob {
+    margin-left: -1em;
+}
+
+
+p {
+    color: whitesmoke;
+    margin-left: 12px;
+}
+
+.gender label {
+    margin-left: 0.5em;
+    
+}
+
+.gender input[type="radio"] {
+    margin-left: -6em;
+}
+
+
+.fullform label {
+    margin-right: 5em;
+    color: whitesmoke;
+    height: 1em;
+    text-align: justify;
+}
+
+
+input[type="date"] {
+    margin-left: -1.2em;
+}
+
+.mn {
+    margin-left: -2.3em;
+}
+
+.tab {
+    color: whitesmoke;
+    margin-left: 5px;
+    border-width: 5px;
+}
+
+.tab input[type="date"] {
+    margin-left: 1px;
+
+}
+.Boa {
+    text-align: center;
+
+}
+
+.course  label{
+    word-wrap: break-word;
+}
+
+.last {
+   text-align: center;
+
+}
+
+.btn {
+    border: none;
+    background-color: yellowgreen;
+    color: cornsilk;
+    padding: 10px 25px;
+    font-size: large;
+    border-radius: 5px;
+    display: inline;
+}
+
+.submit {
+    size: 5px;
+}
+
+.Thank {
+     color: green;
+ }
+
+
+.Disc p{
+    color: indigo;
+}

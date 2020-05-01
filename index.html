@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>saylaniregform</title>
+
+</head>
+<body>
+    <Div class="logo">
+        <img src="Saylani-logo.png" alt="Saylani Welfre Trust">
+        <H1><Strong>STUDENT REGISTRATION FORM</Strong></H1>
+    </Div>
+    <div class="fullform">
+        <form action="Submit.html" method="POST">
+            <p>
+                <label>First Name</label>
+                <input type="text" name="First Name" id="First Name" maxlength="30" placeholder="Enter First Name" required>
+                <small>(Max 30 Characters a-z and A-Z)</small>
+            </p>
+            <p>
+                <label>Last Name</label>
+                <input type="text" name="Last Name" maxlength="30" placeholder="Enter Last Name" id="Last Name" required>
+                <small>(Max 30 Characters a-z and A-Z)</small>
+            </p>
+            <p>
+                <label>Date Of Birth</label>
+                <select name="Day" id="Day" class="dob">
+                    <option>Day</option>
+                    <Option>1</Option>
+                    <Option>2</Option>
+                    <Option>3</Option>
+                    <Option>4</Option>
+                    <Option>5</Option>
+                    <Option>6</Option>
+                    <Option>7</Option>
+                    <Option>8</Option>
+                    <Option>9</Option>
+                    <Option>10</Option>
+                    <Option>11</Option>
+                    <Option>12</Option>
+                    <Option>13</Option>
+                    <Option>14</Option>
+                    <Option>15</Option>
+                    <Option>16</Option>
+                    <Option>17</Option>
+                    <Option>18</Option>
+                    <Option>19</Option>
+                    <Option>20</Option>
+                    <Option>21</Option>
+                    <Option>22</Option>
+                    <Option>23</Option>
+                    <Option>24</Option>
+                    <Option>25</Option>
+                    <Option>26</Option>
+                    <Option>27</Option>
+                    <Option>28</Option>
+                    <Option>29</Option>
+                    <Option>30</Option>
+                    <Option>31</Option>
+                </select>
+                <select name="Month" id="Month">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                <select name="Year" id="Year">
+                    <option>Year</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                    <option>2005</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                    <option>1998</option>
+                    <option>1997</option>
+                    <option>1996</option>
+                    <option>1995</option>
+                    <option>1994</option>
+                    <option>1993</option>
+                    <option>1992</option>
+                    <option>1991</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                </select>
+            </p>
+            <p>
+                <label>Email ID &nbsp; &nbsp; </label>
+                <input type="email" name="Email ID" placeholder="Enter Email ID" id="Email ID" required >
+            </p>
+            <p>
+                <label>Mobile Number</label>
+                <input type="number" name="Mobile Number" class="mn" placeholder="Enter Mobile Number">
+                <small>(10 Digit Number)</small>
+            </p>
+            <p class="gender">
+                Gender &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <label>Male</label>
+                <input type="radio" name="Gender">
+                <label>Female</label>
+                <input type="radio" name="Gender">
+            </p>
+            <p>
+                <label style="position: absolute;">Address</label>
+                <textarea name="Address" id="Address" cols="35" rows="8" style="margin-left: 12em;"></textarea>
+            </p>
+            <p>
+                <label>City &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; </label>
+                <input type="text" name="City" maxlength="30" placeholder="Enter City Name" id="City" required >
+                <small>(Max 30 Characters a-z and A-Z)</small>
+            </p>
+            <p>
+                <label>Pin Code &nbsp;&nbsp;</label>
+                <input type="number" name="Pin Code"placeholder="Enter Pin Code" id="Pin Code" required>
+                <small>(6 Digit Number)</small>
+            </p>
+            <p>
+                <label>State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="State" maxlength="30" placeholder="Enter State" id="State" required >
+                <small>(Max 30 Characters a-z and A-Z)</small>
+            </p>
+            <p>
+                <label>Counntry &nbsp;&nbsp;</label>
+                <input type="text" name="Country" placeholder="Enter Country" id="Country" required >
+            </p>
+            <p>
+                <Label>Hobbies&nbsp;&nbsp;&nbsp;&nbsp;</Label>
+                <Span>Drawing</Span>
+                <input type="checkbox" name="Drawing">
+                <Span>Singing</Span>
+                <input type="checkbox" name="Singing">
+                <Span>Dancing</Span>
+                <input type="checkbox" name="Dancing">
+                <Span>Sketching</Span>
+                <input type="checkbox" name="Sketching">
+                <Span>Others</Span>
+                <input type="checkbox" name="Others">
+                <input type="text" name="Others" >
+            </p>
+            <table class="tab">
+                <tr>
+                    <th>Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>SI.No.Examination</th>
+                    <th class="Boa">Board</th>
+                    <th class="Boa">Percentage</th>
+                    <th class="Boa">Year Of Passing</th>
+                </tr>
+                <tr>
+                    <th rowspan="5"></th>
+                    <td>1&nbsp;&nbsp;&nbsp; Class X</td>
+                    <td> <input type="text" name="Board" maxlength="10"> </td>
+                    <td> <input type="number" name="Percentage" max="100%"> </td>
+                    <td> <input type="date" name="Year Of Passing"> </td>
+                </tr>
+                <tr>
+                    <td>2 &nbsp;&nbsp;&nbsp;Class XII</td>
+                    <td> <input type="text" name="Board" maxlength="10"> </td>
+                    <td> <input type="number" name="Percentage" max="100%"> </td>
+                    <td> <input type="date" name="Year Of Passing"> </td>
+                </tr>
+                <tr>
+                    <td>3 &nbsp;&nbsp;&nbsp;Graduation</td>
+                    <td> <input type="text" name="Board" maxlength="10"> </td>
+                    <td> <input type="number" name="Percentage" max="100%"> </td>
+                    <td> <input type="date" name="Year Of Passing"> </td>
+                </tr>
+                <tr>
+                    <td>4 &nbsp;&nbsp;&nbsp;Masters</td>
+                    <td> <input type="text" name="Board" maxlength="10"> </td>
+                    <td> <input type="number" name="Percentage" max="100%"> </td>
+                    <td> <input type="date" name="Year Of Passing"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10 Char Max)</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Upto 2 Decimal)</td>
+                </tr>
+            </table>
+            <p class="course">
+                <Label>Courses <br> Applied For</Label>
+                <span>BCA</span>
+                <input type="radio" name="Course">
+                <span>B.Com</span>
+                <input type="radio" name="Course">
+                <span>B.Sc</span>
+                <input type="radio" name="Course">
+                <span>B.A</span>
+                <input type="radio" name="Course">
+            </p>
+            <footer class="last">
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </footer>
+
+
+        </form>
+    </div>
+</body>
+</html>
